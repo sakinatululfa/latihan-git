@@ -6,7 +6,8 @@
 
 <body>
     <center>
-        <form action="<?= base_url('Matakuliah/cetak'); ?>"method="post">
+        <form action="<?= base_url('matakuliah/cetak'); ?>" method="post">
+            <?php echo validation_errors() ?>
             <table>
                 <tr>
                     <th colspan="3">
@@ -54,4 +55,4 @@
     </center>
 </body>
 
-</html
+</html>
